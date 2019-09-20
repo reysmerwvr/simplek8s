@@ -24,9 +24,9 @@ This project uses a number of open source projects to work properly:
 
 Install kubectl and minikube for your OS.
 
-[macOS] - https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos
-[Windows] - https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows
-[Linux] - https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux
+[macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
+[Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows)
+[Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 
 Once running minikube
 
