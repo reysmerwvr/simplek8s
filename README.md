@@ -28,10 +28,21 @@ Install kubectl and minikube for your OS.
 [Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows)
 [Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 
+## Run minikube 
+
+```bash
+hyperv
+$ minikube start --vm-driver hyperv --hyperv-virtual-switch "<Minikube Name>"
+virtualbox
+$ minikube start –vm-driver=virtualbo -p <name>
+```
+
 Once running minikube
 
 ```bash
 cd simplek8s
+$ minikube status
+$ kubectl cluster-info
 $ kubectl apply -f client-pod.yaml
 $ kubectl apply -f client-node.yaml
 ```
