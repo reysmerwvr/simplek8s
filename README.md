@@ -34,7 +34,7 @@ Install kubectl and minikube for your OS.
 hyperv
 $ minikube start --vm-driver hyperv --hyperv-virtual-switch "<Minikube Name>"
 virtualbox
-$ minikube start –vm-driver=virtualbo -p <name>
+$ minikube start –vm-driver=virtualbox -p <name>
 ```
 
 Once running minikube
