@@ -28,7 +28,7 @@ Install kubectl and minikube for your OS.
 [Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows)
 [Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 
-## Run minikube 
+## Run minikube
 
 ```bash
 hyperv
@@ -41,31 +41,31 @@ Once running minikube
 
 ```bash
 cd simplek8s
-$ minikube status
-$ kubectl cluster-info
-$ kubectl apply -f client-pod.yaml
-$ kubectl apply -f client-node.yaml
+minikube status
+kubectl cluster-info
+kubectl apply -f client-pod.yaml
+kubectl apply -f client-node.yaml
 ```
 
 To verify pods/services status
 
 ```bash
 cd simplek8s
-$ kubectl get pods
-$ kubectl get services
+kubectl get pods
+kubectl get services
 ```
 
 To verify minikube ip
 
 ```bash
 cd simplek8s
-$ minikube ip
+minikube ip
 ```
 
 ### Todos
 
 - Add code comments
 
-[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does 
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does
 its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [Kubernetes]: https://kubernetes.io/
