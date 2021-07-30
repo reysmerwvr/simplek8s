@@ -1,6 +1,6 @@
 # simplek8s
 
-Kubernetes Sample With One Docker Container.
+> Kubernetes Sample With One Docker Container
 
 ## Requirements
 
@@ -62,9 +62,22 @@ cd simplek8s
 minikube ip
 ```
 
-### Todos
+## Contribute
 
-- Add code comments
+We would love you for the contribution to **simplek8s**, check the ``LICENSE`` file for more info.
+
+## TODO
+
+- [ ] Write tests
+- [ ] Add code comments
+
+## Meta
+
+Reysmer Valle – [@ReysmerWVR]
+
+## License
+
+Kubernetes Sample is (c) 2021 Reysmer Valle ([@ReysmerWVR]) and may be freely distributed under the [license-url]. See the `MIT-LICENSE` file.
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does
 its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"

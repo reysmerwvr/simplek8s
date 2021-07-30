@@ -8,5 +8,5 @@ spec:
   containers:
     - name: client
       image: reysmerwvr/multi-client
-      ports: 
+      ports:
         - containerPort: 3000
