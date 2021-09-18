@@ -35,6 +35,8 @@ hyperv
 $ minikube start --vm-driver hyperv --hyperv-virtual-switch "<Minikube Name>"
 virtualbox
 $ minikube start –vm-driver=virtualbox -p <name>
+hyperkit
+$ minikube start --driver=hyperkit
 ```
 
 Once running minikube
